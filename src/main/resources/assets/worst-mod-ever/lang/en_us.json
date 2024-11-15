@@ -1,9 +1,12 @@
 {
   "item.worst-mod-ever.self_promo": "Self Promotion (Can't Forget That)",
+  "item.worst-mod-ever.dirt_chisel": "Dirt Chisel",
+  "item.worst-mod-ever.cauliflower": "Cauliflower",
 
   "block.worst-mod-ever.self_promo_block": "Self Promotion Block (Can't Forget That Block)",
   "block.worst-mod-ever.self_promo_ore": "Self Promotion Ore",
   "block.worst-mod-ever.self_promo_deepslate_ore": "Self Promotion Deepslate Ore",
+  "block.worst-mod-ever.magic_block": "Magic Block",
 
   "itemgroup.worst-mod-ever.worstgroupitem": "Worst Item Group",
   "itemgroup.worst-mod-ever.worstgroupblock": "Worst Block Group"

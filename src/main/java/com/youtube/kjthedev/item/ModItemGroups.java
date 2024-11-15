@@ -13,21 +13,24 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(WorstModEVER.MOD_ID, "worst_block_group"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.SELF_PROMO_BLOCK))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.MAGIC_BLOCK))
                     .displayName(Text.translatable("itemgroup.worst-mod-ever.worstgroupblock"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.SELF_PROMO_BLOCK);
                         entries.add(ModBlocks.SELF_PROMO_ORE);
                         entries.add(ModBlocks.SELF_PROMO_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
 
                     }).build());
 
     public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(WorstModEVER.MOD_ID, "worst_item_group"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SELF_PROMO))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DIRT_CHISEL))
                     .displayName(Text.translatable("itemgroup.worst-mod-ever.worstgroupitem"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SELF_PROMO);
+                        entries.add(ModItems.DIRT_CHISEL);
+                        entries.add(ModItems.CAULIFLOWER);
 
                     }).build());
 
