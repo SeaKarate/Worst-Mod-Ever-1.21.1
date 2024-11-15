@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "worst-mod-ever",
+	"version": "${version}",
+	"name": "Worst Mod EVER",
+	"description": "@kJTheDev On YT Only!",
+	"authors": [
+		"@kJTheDev!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/worst-mod-ever/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.youtube.kjthedev.WorstModEVER"
+		],
+		"client": [
+			"com.youtube.kjthedev.WorstModEVERClient"
+		],
+		"fabric-datagen": [
+			"com.youtube.kjthedev.WorstModEVERDataGenerator"
+		]
+	},
+	"mixins": [
+		"worst-mod-ever.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

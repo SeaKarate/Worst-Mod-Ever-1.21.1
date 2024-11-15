@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 1,
+  "experience": 100,
+  "group": "self_promo",
+  "ingredient": {
+    "item": "worst-mod-ever:self_promo_ore"
+  },
+  "result": {
+    "id": "worst-mod-ever:self_promo"
+  }
+}

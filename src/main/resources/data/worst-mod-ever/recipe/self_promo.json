@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "worst-mod-ever:self_promo_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "worst-mod-ever:self_promo"
+  }
+}
