@@ -1,0 +1,5 @@
+// 1.21.1	2024-11-16T23:23:37.7279812	Worst Mod EVER/Tags for minecraft:block
+e1addf01687b2c4894d8c41e068172d338afc835 data\minecraft\tags\block\needs_diamond_tool.json
+cde2084d28f478aced19c5996170d9863c059ce0 data\minecraft\tags\block\needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\needs_stone_tool.json
+f2a604c31780120fc59118515d0e631170cad3b1 data\minecraft\tags\block\mineable\pickaxe.json

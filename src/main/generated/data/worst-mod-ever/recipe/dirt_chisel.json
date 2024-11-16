@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "d": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DRD",
+    "ddd"
+  ],
+  "result": {
+    "count": 1,
+    "id": "worst-mod-ever:dirt_chisel"
+  }
+}
