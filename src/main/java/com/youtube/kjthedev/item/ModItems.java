@@ -13,6 +13,7 @@ public class ModItems {
 
     public static final Item SELF_PROMO = registerItem("self_promo", new Item(new Item.Settings()));
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item INF_CAULIFLOWER = registerItem("inf_cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER).recipeRemainder(ModItems.INF_CAULIFLOWER)));
     public static final Item DIRT_CHISEL = registerItem("dirt_chisel", new ChiselItem(new Item.Settings().maxDamage(32767)));
 
     private static Item registerItem(String name, Item item) {
