@@ -2,18 +2,22 @@ package com.youtube.kjthedev.item.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
+import java.util.List;
 import java.util.Map;
 
 public class ChiselItem extends Item {
@@ -21,7 +25,6 @@ public class ChiselItem extends Item {
             Map.of(
                     Blocks.STONE, Blocks.DIRT,
                     Blocks.DIRT, Blocks.DIAMOND_BLOCK,
-                    Blocks.WATER, Blocks.LAVA,
                     Blocks.DIAMOND_BLOCK, Blocks.DIRT,
                     Blocks.GRASS_BLOCK, Blocks.NETHERITE_BLOCK
 
@@ -52,7 +55,17 @@ public class ChiselItem extends Item {
     }
 
     @Override
-    public UseAction getUseAction(ItemStack stack) {
-        return UseAction.DRINK;
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        if (Screen.hasShiftDown()) {
+            tooltip.add(Text.translatable("tooltip.worst-mod-ever.chiselitem.tooltip.shift"));
+            tooltip.add(Text.translatable("tooltip.worst-mod-ever.chiselitem.tooltip.shift1"));
+            tooltip.add(Text.translatable("tooltip.worst-mod-ever.chiselitem.tooltip.shift2"));
+            tooltip.add(Text.translatable("tooltip.worst-mod-ever.chiselitem.tooltip.shift3"));
+            tooltip.add(Text.translatable("tooltip.worst-mod-ever.chiselitem.tooltip.shift4"));
+        } else {
+            tooltip.add(Text.translatable("tooltip.worst-mod-ever.chiselitem.tooltip"));
+        }
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }
+
