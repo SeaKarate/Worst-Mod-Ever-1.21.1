@@ -31,7 +31,8 @@ public class ModItemGroups {
                         entries.add(ModItems.SELF_PROMO);
                         entries.add(ModItems.DIRT_CHISEL);
                         entries.add(ModItems.CAULIFLOWER);
-                        entries.add(ModItems.INF_CAULIFLOWER);
+                        entries.add(ModItems.SUS_DRINK);
+                        entries.add(ModItems.STARLIGHT);
 
                     }).build());
 

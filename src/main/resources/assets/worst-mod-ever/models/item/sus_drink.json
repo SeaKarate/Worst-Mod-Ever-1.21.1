@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "worst-mod-ever:item/inf_cauliflower"
+    "layer0": "worst-mod-ever:item/sus_drink"
   }
 }

@@ -39,6 +39,9 @@ public class MagicBlock extends Block {
             if(itemEntity.getStack().getItem() == Items.DIRT) {
                             itemEntity.setStack(new ItemStack(Items.DIAMOND, itemEntity.getStack().getCount()));
             }
+            if(itemEntity.getStack().getItem() == Items.GLASS_BOTTLE) {
+                            itemEntity.setStack(new ItemStack(ModItems.SUS_DRINK, itemEntity.getStack().getCount()));
+            }
         }
         super.onSteppedOn(world, pos, state, entity);
     }

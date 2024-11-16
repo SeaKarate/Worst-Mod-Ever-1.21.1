@@ -3,6 +3,7 @@ package com.youtube.kjthedev;
 import com.youtube.kjthedev.block.ModBlocks;
 import com.youtube.kjthedev.item.ModItemGroups;
 import com.youtube.kjthedev.item.ModItems;
+import com.youtube.kjthedev.item.ModFuels;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,5 +18,7 @@ public class WorstModEVER implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModFuels.registerModFuels();
+
 	}
 }
