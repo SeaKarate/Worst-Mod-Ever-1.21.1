@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "worst-mod-ever:block/self_promo_door_bottom",
+    "top": "worst-mod-ever:block/self_promo_door_top"
+  }
+}

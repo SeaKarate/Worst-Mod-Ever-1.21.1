@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worst-mod-ever:block/self_promo_slab"
+    },
+    "type=double": {
+      "model": "worst-mod-ever:block/self_promo_block"
+    },
+    "type=top": {
+      "model": "worst-mod-ever:block/self_promo_slab_top"
+    }
+  }
+}

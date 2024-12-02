@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "worst-mod-ever:block/suslamp"
+    },
+    "clicked=true": {
+      "model": "worst-mod-ever:block/suslamp_on"
+    }
+  }
+}

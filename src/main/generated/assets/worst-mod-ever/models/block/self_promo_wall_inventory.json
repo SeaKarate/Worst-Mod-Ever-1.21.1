@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "worst-mod-ever:block/self_promo_block"
+  }
+}

@@ -27,7 +27,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.MAGIC_BLOCK);
+        addDrop(ModBlocks.SUSLAMP);
         addDrop(ModBlocks.SELF_PROMO_BLOCK);
+        addDrop(ModBlocks.SELF_PROMO_WALL);
+        addDrop(ModBlocks.SELF_PROMO_DOOR, doorDrops(ModBlocks.SELF_PROMO_DOOR));
+        addDrop(ModBlocks.SELF_PROMO_TRAPDOOR);
+        addDrop(ModBlocks.SELF_PROMO_BUTTON);
+        addDrop(ModBlocks.SELF_PROMO_FENCE_GATE);
+        addDrop(ModBlocks.SELF_PROMO_FENCE);
+        addDrop(ModBlocks.SELF_PROMO_PRESSURE_PLATE);
+        addDrop(ModBlocks.SELF_PROMO_SLAB, slabDrops(ModBlocks.SELF_PROMO_SLAB));
+        addDrop(ModBlocks.SELF_PROMO_STAIRS);
         addDrop(ModBlocks.SELF_PROMO_ORE, multipleOreDrops(ModBlocks.SELF_PROMO_ORE, ModItems.SELF_PROMO,1,3));
         addDrop(ModBlocks.SELF_PROMO_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.SELF_PROMO_DEEPSLATE_ORE, ModItems.SELF_PROMO, 2,5));
     }

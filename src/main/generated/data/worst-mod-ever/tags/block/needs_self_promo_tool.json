@@ -1,0 +1,18 @@
+{
+  "values": [
+    "worst-mod-ever:magic_block",
+    "worst-mod-ever:self_promo_ore",
+    "worst-mod-ever:self_promo_block",
+    "worst-mod-ever:self_promo_deepslate_ore",
+    "worst-mod-ever:self_promo_fence",
+    "worst-mod-ever:self_promo_wall",
+    "worst-mod-ever:self_promo_stairs",
+    "worst-mod-ever:self_promo_slab",
+    "worst-mod-ever:self_promo_button",
+    "worst-mod-ever:self_promo_pressure_plate",
+    "worst-mod-ever:self_promo_door",
+    "worst-mod-ever:self_promo_trapdoor",
+    "worst-mod-ever:self_promo_fence_gate",
+    "#minecraft:needs_diamond_tool"
+  ]
+}

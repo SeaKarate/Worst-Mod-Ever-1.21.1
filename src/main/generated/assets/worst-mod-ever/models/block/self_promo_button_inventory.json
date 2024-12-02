@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "worst-mod-ever:block/self_promo_block"
+  }
+}

@@ -1,6 +1,7 @@
 package com.youtube.kjthedev;
 
 import com.youtube.kjthedev.block.ModBlocks;
+import com.youtube.kjthedev.component.ModDataComponentTypes;
 import com.youtube.kjthedev.item.ModItemGroups;
 import com.youtube.kjthedev.item.ModItems;
 import com.youtube.kjthedev.item.ModFuels;
@@ -19,6 +20,7 @@ public class WorstModEVER implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		ModFuels.registerModFuels();
+		ModDataComponentTypes.registerDataComponentTypes();
 
 	}
 }

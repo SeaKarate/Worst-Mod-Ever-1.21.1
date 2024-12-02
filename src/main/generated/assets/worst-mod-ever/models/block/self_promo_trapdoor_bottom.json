@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_bottom",
+  "textures": {
+    "texture": "worst-mod-ever:block/self_promo_trapdoor"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "worst-mod-ever:item/self_promo_pickaxe"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "worst-mod-ever:self_promo"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "id": "worst-mod-ever:self_promo_button"
+  }
+}

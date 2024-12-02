@@ -1,5 +1,9 @@
-// 1.21.1	2024-11-16T23:23:37.7279812	Worst Mod EVER/Tags for minecraft:block
-e1addf01687b2c4894d8c41e068172d338afc835 data\minecraft\tags\block\needs_diamond_tool.json
+// 1.21.1	2024-12-02T20:38:24.4715524	Worst Mod EVER/Tags for minecraft:block
 cde2084d28f478aced19c5996170d9863c059ce0 data\minecraft\tags\block\needs_iron_tool.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\needs_stone_tool.json
+e1addf01687b2c4894d8c41e068172d338afc835 data\minecraft\tags\block\needs_diamond_tool.json
+c3ce9540737716931149dac2c26f414828785dbd data\minecraft\tags\block\needs_stone_tool.json
+015df63e9fde2fecb2ff17ffe72fb2a3f13256b6 data\minecraft\tags\block\fence_gates.json
+ed35ff6195672c2d8d08ccad4e20f26db0336751 data\worst-mod-ever\tags\block\needs_self_promo_tool.json
 f2a604c31780120fc59118515d0e631170cad3b1 data\minecraft\tags\block\mineable\pickaxe.json
+bd21ea733cc0efdc10392a86223d2e46a1708473 data\minecraft\tags\block\walls.json
+fc9fe82e873956c223e54d24f26c5e46f49eb0ac data\minecraft\tags\block\wooden_fences.json

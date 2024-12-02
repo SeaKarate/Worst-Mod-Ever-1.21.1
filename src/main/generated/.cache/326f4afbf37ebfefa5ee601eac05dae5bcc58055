@@ -1,5 +1,15 @@
-// 1.21.1	2024-11-16T23:23:37.7729919	Worst Mod EVER/Block Loot Tables
+// 1.21.1	2024-12-02T20:38:24.5255643	Worst Mod EVER/Block Loot Tables
+921d924d7d17245270270d44515fdf05e02d3458 data\worst-mod-ever\loot_table\blocks\self_promo_button.json
+bc10834f6cb0b68808ad6433627995609fa49d9c data\worst-mod-ever\loot_table\blocks\suslamp.json
+e7b1fe64721c06ebd0e5fc5805510dc42f4b873e data\worst-mod-ever\loot_table\blocks\self_promo_slab.json
+b34a1775d8b666f939dd797cc9615636c4f843df data\worst-mod-ever\loot_table\blocks\self_promo_wall.json
+23c9eedbeb706d8651c4059fcc0652ff42a44d60 data\worst-mod-ever\loot_table\blocks\self_promo_trapdoor.json
 7d2c2aa48cb67f460fdd86665371abd56a32f9fe data\worst-mod-ever\loot_table\blocks\self_promo_deepslate_ore.json
+878fdb74863c7cf146996f25868fa946f0a35653 data\worst-mod-ever\loot_table\blocks\self_promo_fence_gate.json
 80d2bde33aa8aa64edeff1ef525578e51346250e data\worst-mod-ever\loot_table\blocks\self_promo_ore.json
+5eee3a6ce77d214f4007f4aec3c485670f94f04a data\worst-mod-ever\loot_table\blocks\self_promo_door.json
+b3972394891a7389387c4cb0513cec19a77c62f1 data\worst-mod-ever\loot_table\blocks\self_promo_stairs.json
 42abad88ad5b26c4bc71be2f8ac1a86518cd0563 data\worst-mod-ever\loot_table\blocks\self_promo_block.json
 df4eb910ef4ff72dcfc9cbecb8b125bd5c85a65f data\worst-mod-ever\loot_table\blocks\magic_block.json
+ca45ba6550ce598dd0526fa1025f267caf97f8d8 data\worst-mod-ever\loot_table\blocks\self_promo_pressure_plate.json
+26af453e93a9c65ecbc577ab1cebb93f5d72ab4f data\worst-mod-ever\loot_table\blocks\self_promo_fence.json

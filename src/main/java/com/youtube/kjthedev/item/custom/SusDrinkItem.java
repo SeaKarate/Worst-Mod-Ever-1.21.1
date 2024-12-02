@@ -34,7 +34,7 @@ public class SusDrinkItem extends Item {
         }
 
         if (!world.isClient) {
-            user.removeStatusEffect(StatusEffects.POISON);
+//            user.removeStatusEffect(StatusEffects.POISON);
 //            user.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA,600,2));
         }
 

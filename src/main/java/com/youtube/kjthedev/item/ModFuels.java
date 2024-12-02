@@ -7,7 +7,7 @@ import net.minecraft.item.Items;
 public class ModFuels {
 
     public static void registerModFuels() {
-        FuelRegistry.INSTANCE.add(Items.LAVA_BUCKET, 20000);
+        FuelRegistry.INSTANCE.add(ModItems.STARLIGHT, 20000);
 
         WorstModEVER.LOGGER.info("Registered Mod Fuel Items For " + WorstModEVER.MOD_ID);
     }

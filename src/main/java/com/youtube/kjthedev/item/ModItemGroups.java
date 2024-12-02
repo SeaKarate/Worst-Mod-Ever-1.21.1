@@ -20,6 +20,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SELF_PROMO_ORE);
                         entries.add(ModBlocks.SELF_PROMO_DEEPSLATE_ORE);
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModBlocks.SELF_PROMO_STAIRS);
+                        entries.add(ModBlocks.SELF_PROMO_BUTTON);
+                        entries.add(ModBlocks.SELF_PROMO_FENCE);
+                        entries.add(ModBlocks.SELF_PROMO_WALL);
+                        entries.add(ModBlocks.SELF_PROMO_DOOR);
+                        entries.add(ModBlocks.SELF_PROMO_TRAPDOOR);
+                        entries.add(ModBlocks.SELF_PROMO_SLAB);
+                        entries.add(ModBlocks.SELF_PROMO_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SELF_PROMO_FENCE_GATE);
+                        entries.add(ModBlocks.SUSLAMP);
 
                     }).build());
 
@@ -33,6 +43,12 @@ public class ModItemGroups {
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.SUS_DRINK);
                         entries.add(ModItems.STARLIGHT);
+                        entries.add(ModItems.NBT_SAVER);
+                        entries.add(ModItems.SELF_PROMO_SWORD);
+                        entries.add(ModItems.SELF_PROMO_PICKAXE);
+                        entries.add(ModItems.SELF_PROMO_AXE);
+                        entries.add(ModItems.SELF_PROMO_SHOVEL);
+                        entries.add(ModItems.SELF_PROMO_HOE);
 
                     }).build());
 

@@ -10,11 +10,9 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.chunk.light.LightStorage;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -45,5 +43,122 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.COAL)
                 .criterion(hasItem(Items.COAL),conditionsFromItem(Items.COAL))
                 .offerTo(recipeExporter, Identifier.of(WorstModEVER.MOD_ID,"starlight_from_coal_broken_xd"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SELF_PROMO_DOOR, 3)
+                .pattern("## ")
+                .pattern("## ")
+                .pattern("## ")
+                .input('#', ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE,ModBlocks.SELF_PROMO_TRAPDOOR, 4)
+                .pattern("   ")
+                .pattern("# #")
+                .pattern("###")
+                .input('#', ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SELF_PROMO_FENCE, 6)
+                .pattern("   ")
+                .pattern("#S#")
+                .pattern("#S#")
+                .input('#', ModItems.SELF_PROMO)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SELF_PROMO_FENCE_GATE, 2)
+                .pattern("   ")
+                .pattern("S#S")
+                .pattern("S#S")
+                .input('#', ModItems.SELF_PROMO)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE,ModBlocks.SELF_PROMO_PRESSURE_PLATE, 2)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("###")
+                .input('#', ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SELF_PROMO_SLAB, 4)
+                .pattern("   ")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SELF_PROMO_STAIRS, 12)
+                .pattern("#  ")
+                .pattern("## ")
+                .pattern("###")
+                .input('#', ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE,ModBlocks.SELF_PROMO_BUTTON,6)
+                .input(ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SELF_PROMO_WALL, 6)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS,ModItems.NBT_SAVER, 1)
+                .pattern(" # ")
+                .pattern("###")
+                .pattern(" # ")
+                .input('#', Items.DIRT)
+                .criterion(hasItem(Items.DIRT),conditionsFromItem(Items.DIRT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE,ModBlocks.SUSLAMP,1)
+                .pattern(" # ")
+                .pattern("#R#")
+                .pattern(" # ")
+                .input('#', Items.WHITE_WOOL)
+                .input('R', Items.REDSTONE)
+                .criterion(hasItem(Items.REDSTONE),conditionsFromItem(Items.REDSTONE))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.SELF_PROMO_SWORD,1)
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" S ")
+                .input('#', ModItems.SELF_PROMO)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.SELF_PROMO_PICKAXE,1)
+                .pattern("###")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('#', ModItems.SELF_PROMO)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.SELF_PROMO_AXE,1)
+                .pattern(" ##")
+                .pattern(" S#")
+                .pattern(" S ")
+                .input('#', ModItems.SELF_PROMO)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.SELF_PROMO_SHOVEL,1)
+                .pattern(" # ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('#', ModItems.SELF_PROMO)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.SELF_PROMO_HOE,1)
+                .pattern("## ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('#', ModItems.SELF_PROMO)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
     }
 }

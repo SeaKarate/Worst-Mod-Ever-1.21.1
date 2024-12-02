@@ -2,10 +2,9 @@ package com.youtube.kjthedev.block;
 
 import com.youtube.kjthedev.WorstModEVER;
 import com.youtube.kjthedev.block.custom.MagicBlock;
+import com.youtube.kjthedev.block.custom.SusLampBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -41,6 +40,34 @@ public class ModBlocks {
             new MagicBlock(AbstractBlock.Settings.create()
                     .strength(1f)
                     .requiresTool()));
+    public static final Block SELF_PROMO_STAIRS = registerBlock("self_promo_stairs",
+            new StairsBlock(ModBlocks.SELF_PROMO_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SELF_PROMO_SLAB = registerBlock("self_promo_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block SELF_PROMO_BUTTON = registerBlock("self_promo_button",
+            new ButtonBlock(BlockSetType.IRON,2, AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision()));
+    public static final Block SELF_PROMO_PRESSURE_PLATE = registerBlock("self_promo_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block SELF_PROMO_FENCE = registerBlock("self_promo_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SELF_PROMO_FENCE_GATE = registerBlock("self_promo_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SELF_PROMO_WALL = registerBlock("self_promo_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block SELF_PROMO_DOOR = registerBlock("self_promo_door",
+            new DoorBlock(BlockSetType.IRON,AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+    public static final Block SELF_PROMO_TRAPDOOR = registerBlock("self_promo_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+
+    public static final Block SUSLAMP = registerBlock("suslamp",
+            new SusLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f)
+                    .luminance(state -> state.get(SusLampBlock.CLICKED) ? 15 : 0)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

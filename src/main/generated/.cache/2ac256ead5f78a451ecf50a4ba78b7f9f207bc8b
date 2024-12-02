@@ -1,2 +1,7 @@
-// 1.21.1	2024-11-16T23:23:37.7399853	Worst Mod EVER/Tags for minecraft:item
+// 1.21.1	2024-12-02T20:38:24.4885556	Worst Mod EVER/Tags for minecraft:item
 a1ef6a139236ec93b458a5b3628353c9e8ec9738 data\worst-mod-ever\tags\item\transformable_items.json
+e3d2c4ec6ef57c688313ee7fca5de27c1f904cdc data\minecraft\tags\item\shovels.json
+efe6e894cffdb2a1404443374c04d4ca5865beaa data\minecraft\tags\item\hoes.json
+3eca45c032a11e1de0ed7492c83bd9d975e97061 data\minecraft\tags\item\axes.json
+ba44a20d6b84ef0b0b6cdf8b942a3971aacc2674 data\minecraft\tags\item\swords.json
+2c5333b5371262d65ee0f81ae6fb8a76a0033453 data\minecraft\tags\item\pickaxes.json
