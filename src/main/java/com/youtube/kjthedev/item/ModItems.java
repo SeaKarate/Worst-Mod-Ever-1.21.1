@@ -51,7 +51,7 @@ public class ModItems {
             .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.SELF_PROMO_OP,0,-3))));
 
     public static final Item SELF_PROMO_HAMMER= registerItem("self_promo_hammer",
-            new HammerItem(ModToolMaterials.SELF_PROMO_OP, new Item.Settings()
+            new HammerItem(ModToolMaterials.SELF_PROMO_HAMMER, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SELF_PROMO_OP,7,-3.4f))));
 
     public static final Item SELF_PROMO_HELMET = registerItem("self_promo_helmet",
