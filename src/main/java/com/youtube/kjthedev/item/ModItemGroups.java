@@ -53,7 +53,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SELF_PROMO_BOOTS);
                         entries.add(ModItems.SELF_PROMO_LEGGINGS);
                         entries.add(ModItems.SELF_PROMO_CHESTPLATE);
-                        entries.add(ModItems.SELF_PROMO_BOOTS);
+                        entries.add(ModItems.SELF_PROMO_HELMET);
 
                     }).build());
 
