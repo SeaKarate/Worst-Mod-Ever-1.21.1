@@ -160,5 +160,42 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
                 .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.SELF_PROMO_HAMMER,1)
+                .pattern("DDD")
+                .pattern("D#D")
+                .pattern(" S ")
+                .input('#', ModItems.SELF_PROMO)
+                .input('D', Items.DIAMOND_BLOCK)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.SELF_PROMO_BOOTS,1)
+                .pattern("   ")
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.SELF_PROMO_LEGGINGS,1)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.SELF_PROMO_CHESTPLATE,1)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.SELF_PROMO_HELMET,1)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("   ")
+                .input('#', ModItems.SELF_PROMO)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
     }
 }

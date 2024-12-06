@@ -3,6 +3,7 @@ package com.youtube.kjthedev.item;
 import com.youtube.kjthedev.WorstModEVER;
 import com.youtube.kjthedev.item.custom.BlockLogger;
 import com.youtube.kjthedev.item.custom.ChiselItem;
+import com.youtube.kjthedev.item.custom.HammerItem;
 import com.youtube.kjthedev.item.custom.SusDrinkItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.fluid.Fluids;
@@ -48,6 +49,23 @@ public class ModItems {
     public static final Item SELF_PROMO_HOE = registerItem("self_promo_hoe",
             new HoeItem(ModToolMaterials.SELF_PROMO_OP, new Item.Settings()
             .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.SELF_PROMO_OP,0,-3))));
+
+    public static final Item SELF_PROMO_HAMMER= registerItem("self_promo_hammer",
+            new HammerItem(ModToolMaterials.SELF_PROMO_OP, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SELF_PROMO_OP,7,-3.4f))));
+
+    public static final Item SELF_PROMO_HELMET = registerItem("self_promo_helmet",
+            new ArmorItem(ModArmorMaterials.SELF_PROMO_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item SELF_PROMO_CHESTPLATE = registerItem("self_promo_chestplate",
+            new ArmorItem(ModArmorMaterials.SELF_PROMO_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item SELF_PROMO_LEGGINGS = registerItem("self_promo_leggings",
+            new ArmorItem(ModArmorMaterials.SELF_PROMO_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item SELF_PROMO_BOOTS = registerItem("self_promo_boots",
+            new ArmorItem(ModArmorMaterials.SELF_PROMO_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
 
     private static Item registerItem(String name, Item item) {

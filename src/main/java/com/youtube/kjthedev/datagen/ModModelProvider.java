@@ -6,6 +6,7 @@ import com.youtube.kjthedev.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -51,5 +52,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SELF_PROMO_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SELF_PROMO_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SELF_PROMO_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.SELF_PROMO_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SELF_PROMO_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SELF_PROMO_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SELF_PROMO_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SELF_PROMO_BOOTS));
     }
 }

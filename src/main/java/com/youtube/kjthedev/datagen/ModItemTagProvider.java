@@ -31,5 +31,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.SELF_PROMO_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.SELF_PROMO_HOE);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.SELF_PROMO_HELMET)
+                .add(ModItems.SELF_PROMO_CHESTPLATE)
+                .add(ModItems.SELF_PROMO_LEGGINGS)
+                .add(ModItems.SELF_PROMO_BOOTS);
     }
 }

@@ -49,6 +49,11 @@ public class ModItemGroups {
                         entries.add(ModItems.SELF_PROMO_AXE);
                         entries.add(ModItems.SELF_PROMO_SHOVEL);
                         entries.add(ModItems.SELF_PROMO_HOE);
+                        entries.add(ModItems.SELF_PROMO_HAMMER);
+                        entries.add(ModItems.SELF_PROMO_BOOTS);
+                        entries.add(ModItems.SELF_PROMO_LEGGINGS);
+                        entries.add(ModItems.SELF_PROMO_CHESTPLATE);
+                        entries.add(ModItems.SELF_PROMO_BOOTS);
 
                     }).build());
 

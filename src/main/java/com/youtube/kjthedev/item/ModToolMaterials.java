@@ -13,7 +13,8 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    SELF_PROMO_OP(ModTags.Blocks.INCORRECT_FOR_SELF_PROMO_TOOL, 90, 20.0F, 20.0F, 0, () -> Ingredient.ofItems(ModItems.SELF_PROMO));
+    SELF_PROMO_OP(ModTags.Blocks.INCORRECT_FOR_SELF_PROMO_TOOL, 90, 20.0F, 20.0F, 0, () -> Ingredient.ofItems(ModItems.SELF_PROMO)),
+    SELF_PROMO_HAMMER(ModTags.Blocks.INCORRECT_FOR_SELF_PROMO_TOOL, 15000, 20.0F, 20.0F, 0, () -> Ingredient.ofItems(ModItems.SELF_PROMO));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;
