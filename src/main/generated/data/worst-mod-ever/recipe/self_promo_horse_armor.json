@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "worst-mod-ever:self_promo"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "  #",
+    "#L#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "worst-mod-ever:self_promo_horse_armor"
+  }
+}

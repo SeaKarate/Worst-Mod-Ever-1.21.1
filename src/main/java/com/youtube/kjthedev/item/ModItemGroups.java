@@ -54,6 +54,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SELF_PROMO_LEGGINGS);
                         entries.add(ModItems.SELF_PROMO_CHESTPLATE);
                         entries.add(ModItems.SELF_PROMO_HELMET);
+                        entries.add(ModItems.SELF_PROMO_HORSE_ARMOR);
 
                     }).build());
 

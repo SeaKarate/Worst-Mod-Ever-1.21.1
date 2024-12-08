@@ -59,5 +59,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SELF_PROMO_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SELF_PROMO_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SELF_PROMO_BOOTS));
+
+        itemModelGenerator.register(ModItems.SELF_PROMO_HORSE_ARMOR,Models.GENERATED);
     }
 }

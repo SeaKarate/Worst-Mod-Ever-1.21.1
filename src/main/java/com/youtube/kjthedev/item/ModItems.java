@@ -63,6 +63,9 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.SELF_PROMO_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
+    public static final Item SELF_PROMO_HORSE_ARMOR = registerItem("self_promo_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.SELF_PROMO_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN,false,new Item.Settings().maxCount(1)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WorstModEVER.MOD_ID, name), item);

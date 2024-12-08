@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-06T17:19:47.1087906	Worst Mod EVER/Model Definitions
+// 1.21.1	2024-12-08T18:54:00.5533211	Worst Mod EVER/Model Definitions
 a3e93acc9490804ddeb0fe4d4bfda83dff66f8b0 assets\worst-mod-ever\models\item\self_promo_chestplate_quartz_trim.json
 438bb76b59b2923128522628dacc82e8793f1dc6 assets\worst-mod-ever\models\block\suslamp.json
 4a39785a896c71ce1a57239205740ed86f893fc4 assets\worst-mod-ever\models\block\self_promo_fence_gate_open.json
@@ -17,6 +17,7 @@ db772b94e21a445127019ada963e9513d5b0c823 assets\worst-mod-ever\models\block\self
 e87e7fe4814a8146b21d88b78f3c8517f2243055 assets\worst-mod-ever\models\block\self_promo_trapdoor_top.json
 fbe2b931d13904f02c11f9ed881f4105022dc208 assets\worst-mod-ever\models\item\self_promo_chestplate.json
 88cb40bc337dfc5ace1164231b6fb05b71b8c4dd assets\worst-mod-ever\models\item\self_promo_boots_lapis_trim.json
+0c7c2ae1cf08028be20ad299408d04f6b9e19035 assets\worst-mod-ever\models\item\self_promo_horse_armor.json
 8e8a968a587d2a5fe00062dcee09bfa3ae21dd75 assets\worst-mod-ever\blockstates\self_promo_deepslate_ore.json
 4f2d4d22f62ee2edc8447a31644cc69d4dbfab96 assets\worst-mod-ever\models\item\self_promo_leggings_lapis_trim.json
 6e01889ab04ba3ace6ef821cc289c0499687704f assets\worst-mod-ever\models\item\self_promo_boots_quartz_trim.json

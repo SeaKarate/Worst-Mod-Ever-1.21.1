@@ -1,9 +1,10 @@
-// 1.21.1	2024-12-06T17:19:47.1317968	Worst Mod EVER/Recipes
+// 1.21.1	2024-12-08T18:54:00.5733261	Worst Mod EVER/Recipes
 8e50e97f6a3cf4e381dbeb3f5a3b2baf7990d12a data\worst-mod-ever\recipe\self_promo_button.json
 4e8edfe929eabe8929bc4e43b8590e97844a2fef data\worst-mod-ever\recipe\self_promo_hammer.json
 62c5eca30aa8d574e8c2cc85259a1409cbee4aff data\worst-mod-ever\recipe\self_promo_trapdoor.json
 364a6f3d6fe191bfc23a861b5887cfa45de00ca9 data\worst-mod-ever\advancement\recipes\building_blocks\self_promo.json
 6e768c0dc15d1606aa0792e6605060f888a88a67 data\worst-mod-ever\recipe\self_promo_stairs.json
+b8972519ff1a82b0a2d69c699e084a33c7850d7a data\worst-mod-ever\recipe\self_promo_horse_armor.json
 bc26700a919d2d160b75bc53da89be1e4517e8e1 data\worst-mod-ever\advancement\recipes\combat\self_promo_pickaxe.json
 964cd8df66cae71b1a0b7c0d34b72377b416f65a data\worst-mod-ever\advancement\recipes\misc\self_promo_from_blasting_self_promo_block.json
 c009abdd219fbdb0926ffd197102d0f350243547 data\worst-mod-ever\advancement\recipes\building_blocks\self_promo_wall.json
@@ -30,6 +31,7 @@ d6379fa7b08a8686b5597b7a3026924b7d597059 data\worst-mod-ever\recipe\self_promo_f
 39f37eae91c575d33c4465a8511c7991c339bd67 data\worst-mod-ever\advancement\recipes\misc\self_promo_from_blasting_self_promo_deepslate_ore.json
 82879847eda4bdd21e4bfa31ef0f08f1b93906fd data\worst-mod-ever\recipe\self_promo_block.json
 7dae3aa3d54636d4cedeca5af98270c370f375a5 data\worst-mod-ever\recipe\self_promo_slab.json
+5bfffdc8c51f7cf9d59699614f28b8fd15d9af9a data\worst-mod-ever\advancement\recipes\misc\self_promo_horse_armor.json
 68989fdbd7bda1eb3af9e8ecb681c3d925e1b285 data\worst-mod-ever\advancement\recipes\misc\dirt_chisel.json
 233b60f55f9e8c70f63e5a8ec0dc1f3540000726 data\worst-mod-ever\recipe\self_promo_shovel.json
 4d8d8e8f5f14be9413bffe081a41a80b1f1cf1ba data\worst-mod-ever\advancement\recipes\misc\self_promo_from_smelting_self_promo_deepslate_ore.json

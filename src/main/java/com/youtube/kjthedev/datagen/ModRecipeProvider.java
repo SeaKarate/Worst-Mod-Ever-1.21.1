@@ -197,5 +197,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', ModItems.SELF_PROMO)
                 .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
                 .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.SELF_PROMO_HORSE_ARMOR,1)
+                .pattern("  #")
+                .pattern("#L#")
+                .pattern("###")
+                .input('#', ModItems.SELF_PROMO)
+                .input('L', Items.LEATHER)
+                .criterion(hasItem(ModItems.SELF_PROMO),conditionsFromItem(ModItems.SELF_PROMO))
+                .offerTo(recipeExporter);
     }
 }

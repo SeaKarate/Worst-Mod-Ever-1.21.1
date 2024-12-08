@@ -2,6 +2,7 @@ package com.youtube.kjthedev.item.custom;
 
 import com.google.common.collect.ImmutableMap;
 import com.youtube.kjthedev.item.ModArmorMaterials;
+import com.youtube.kjthedev.item.util.CustomVanillaCommand;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -27,7 +28,8 @@ public class ModArmorItem extends ArmorItem {
     private static final Map<RegistryEntry<ArmorMaterial>, List<String>> MATERIAL_TO_TEXT_MAP =
             (new ImmutableMap.Builder<RegistryEntry<ArmorMaterial>, List<String>>())
                     .put(ModArmorMaterials.SELF_PROMO_ARMOR_MATERIAL,
-                            List.of("No way This Just Worked")).build();
+                            List.of("")).build();
+
 
     public ModArmorItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings) {
         super(material, type, settings);
@@ -39,6 +41,10 @@ public class ModArmorItem extends ArmorItem {
             if(entity instanceof PlayerEntity player) {
                 if(hasFullSuitOfArmorOn(player)) {
                     evaluateArmorEffects(player);
+                    startThingyEffects(player);
+                }
+                else {
+                    stopArmorEffects(player);
                 }
             }
         }
@@ -63,7 +69,15 @@ public class ModArmorItem extends ArmorItem {
             }
         }
     }
+    private void stopArmorEffects(PlayerEntity player) {
+                CustomVanillaCommand customCommand = new CustomVanillaCommand();
+                customCommand.modifySafeFallDistance(player, 3);
+    }
+    private void startThingyEffects(PlayerEntity player) {
+                CustomVanillaCommand customCommand = new CustomVanillaCommand();
 
+                customCommand.modifySafeFallDistance(player, 1000000000000000000.0);
+    }
     private void addStatusEffectForMaterial(PlayerEntity player, RegistryEntry<ArmorMaterial> mapArmorMaterial, List<StatusEffectInstance> mapStatusEffect) {
         boolean hasPlayerEffect = mapStatusEffect.stream().allMatch(statusEffectInstance -> player.hasStatusEffect(statusEffectInstance.getEffectType()));
 
