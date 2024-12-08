@@ -1,12 +1,8 @@
 package com.youtube.kjthedev.item;
 
 import com.youtube.kjthedev.WorstModEVER;
-import com.youtube.kjthedev.item.custom.BlockLogger;
-import com.youtube.kjthedev.item.custom.ChiselItem;
-import com.youtube.kjthedev.item.custom.HammerItem;
-import com.youtube.kjthedev.item.custom.SusDrinkItem;
+import com.youtube.kjthedev.item.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.fluid.Fluids;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -55,7 +51,7 @@ public class ModItems {
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SELF_PROMO_OP,7,-3.4f))));
 
     public static final Item SELF_PROMO_HELMET = registerItem("self_promo_helmet",
-            new ArmorItem(ModArmorMaterials.SELF_PROMO_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.SELF_PROMO_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
     public static final Item SELF_PROMO_CHESTPLATE = registerItem("self_promo_chestplate",
             new ArmorItem(ModArmorMaterials.SELF_PROMO_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
